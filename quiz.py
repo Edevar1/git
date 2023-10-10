@@ -26,4 +26,13 @@ if answer_2 =="B":
 else:
     print("Incorreto")
 
-print(f"Quiz acabou...  Portuação: {score}/2")
+print("Qual o nome do protagonista do jogo GTA San Andreas? \n (A) Carlos John \n (B) Carl John \n (C) Carlos Jaqueline \n (D) Carlos Johnson \n")
+answer_3 = input("Respostas: ")
+
+if answer_3 =="B":
+    print("Correto!")
+    score = score + 1
+else:
+    print("Incorreto")
+
+print(f"Quiz acabou...  Portuação: {score}/3")
